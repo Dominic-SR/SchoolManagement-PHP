@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.video-container{
+    /* background-color: grey; */
+    width: 640px;
+    margin: 10px;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 640px;
+}
+
+
+.buttons-container > li > button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.heading{
+    align-self: center;
+    padding: 10px;
+}
+
+.add-label{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+
+.add-label > input{
+    height: 35px;
+    border-radius: 20px;
+}
+
+.add-label > button{
+    margin: 10px 0;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+body > div > video{
+    align-self: center;
+}
+
+.video-division{
+    display: flex;
+    top:50;
+    left: 680;
+    width: 640px;
+    height: 550px;
+}
+
+.video-player{
+    position: absolute;
+}
+
+.popup-wrapper{
+    position: absolute;
+    top:230;
+    left: 620;
+    width: 250px;
+    height: 50px;
+}
+
+.popup-content{
+    padding: 10px;
+    position: absolute;
+    flex-direction: column;
+    background: #28252556;
+    color: #fff;
+    max-width: 550px;
+    word-wrap: break-word;
+    border-radius: 10px;
+   
+}
+
+.sub-popup{
+    margin: -32px;
+    padding: 5px;
+    position: absolute;
+    display: block;
+    color: white;
+    background-color: black;
+    word-wrap: break-word;
+    background: #28252556;
+    border-radius: 10px;
+}
+
+
+.continue-btn{
+    float: right;
+    background: #0000004f;
+    border: 0;
+    color: white;
+    width: 15px;
+    border-radius: 200px;
+    margin-top: -20px;
+    margin-right: -35px;
+}
+
+#popup-wrapper{
+            position: absolute;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            user-select: none;
+            cursor: pointer;
+        }
